@@ -1,6 +1,6 @@
 # Goscii
 
-Goscii is a simple cli to generate ascii art from webcam stream.
+Goscii (Go-Ascii) is a simple cool cli to generate ascii art from webcam stream in your shell.
 
 ## Requirements
 
@@ -30,4 +30,11 @@ Run the cli:
 
 ```bash
 go run main.go
+```
+
+Or build the binary and run it:
+
+```bash
+go build -o goscii
+./goscii
 ```
